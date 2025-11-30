@@ -12,10 +12,10 @@ const options = {
     reconnectInterval: 1000,
 	},
 	identity: {
-		username: BOT_USERNAME,
+		username: itsbr0dyybot,
 		password: OAUTH_TOKEN
 	},
-	channels: [ CHANNEL_NAME ]
+	channels: [ itsbr0dyybot ]
 }
 
 const client = new tmi.Client(options)
